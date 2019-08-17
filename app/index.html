@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+        <button onclick="sendMessageToWorker()">Post message to worker</button>
+        <button onclick="askWorkerToPerformRecurringTask()">Launch recurring task</button>
+        <h3>Worker result</h3>
+        <div id="result"></div>
+
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="PWA Workshop">
+<meta name="apple-mobile-web-app-title" content="PWA Workshop">
+<meta name="msapplication-starturl" content="/index.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Front-end Study Group: Crie a sua PWA!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.8/pwacompat.min.js"
+    integrity="sha384-uONtBTCBzHKF84F6XvyC8S0gL8HTkAPeCyBNvfLfsqHh+Kd6s/kaS4BdmNQ5ktp1"
+    crossorigin="anonymous"></script>
+</html>
